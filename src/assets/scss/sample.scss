@@ -1,0 +1,16 @@
+.form_header {
+  margin-left: 35%;
+  margin-right: 5%;
+  @media screen and (max-width: 768px) {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+.form_width {
+  width: 50%;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+// .cdgh {
+// }
