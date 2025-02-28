@@ -1,79 +1,124 @@
-# Vuetify (Default)
 
-This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
 
-## ❗️ Important Links
+# 🛒 **Shopping Cart System - Frontend**  
 
-- 📄 [Docs](https://vuetifyjs.com/)
-- 🚨 [Issues](https://issues.vuetifyjs.com/)
-- 🏬 [Store](https://store.vuetifyjs.com/)
-- 🎮 [Playground](https://play.vuetifyjs.com/)
-- 💬 [Discord](https://community.vuetifyjs.com)
+![Shopping Cart System Logo](https://github.com/user-attachments/assets/5ffc5adf-5259-4bfd-9cd3-a07d1d8c2d6c)  
 
-## 💿 Install
+🚀 **A sleek and responsive shopping cart system** built with **Vue.js, Vuetify, and CSS**. This project is a **practice-based group project** designed to enhance skills in frontend development while creating a smooth e-commerce experience.  
 
-Set up your project using your preferred package manager. Use the corresponding command to install the dependencies:
+🔗 **GitHub Repository:** [ShoppingCart-Ecommerce-Site-Frontend](https://github.com/zukoo52/ShoppingCart-Ecommerse-site-Front-End-.git)  
 
-| Package Manager                                                | Command        |
-|---------------------------------------------------------------|----------------|
-| [yarn](https://yarnpkg.com/getting-started)                   | `yarn install` |
-| [npm](https://docs.npmjs.com/cli/v7/commands/npm-install)     | `npm install`  |
-| [pnpm](https://pnpm.io/installation)                          | `pnpm install` |
-| [bun](https://bun.sh/#getting-started)                        | `bun install`  |
+---
 
-After completing the installation, your environment is ready for Vuetify development.
+## **🎨 UI Preview**  
 
-## ✨ Features
+![Shopping Cart System UI](https://github.com/user-attachments/assets/05457ced-ff2f-4089-9d61-491ca7f70b93)  
 
-- 🖼️ **Optimized Front-End Stack**: Leverage the latest Vue 3 and Vuetify 3 for a modern, reactive UI development experience. [Vue 3](https://v3.vuejs.org/) | [Vuetify 3](https://vuetifyjs.com/en/)
-- 🗃️ **State Management**: Integrated with [Pinia](https://pinia.vuejs.org/), the intuitive, modular state management solution for Vue.
-- 🚦 **Routing and Layouts**: Utilizes Vue Router for SPA navigation and vite-plugin-vue-layouts for organizing Vue file layouts. [Vue Router](https://router.vuejs.org/) | [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
-- ⚡ **Next-Gen Tooling**: Powered by Vite, experience fast cold starts and instant HMR (Hot Module Replacement). [Vite](https://vitejs.dev/)
-- 🧩 **Automated Component Importing**: Streamline your workflow with unplugin-vue-components, automatically importing components as you use them. [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
+> ✨ **Modern UI, seamless navigation, and interactive shopping experience!**  
 
-These features are curated to provide a seamless development experience from setup to deployment, ensuring that your Vuetify application is both powerful and maintainable.
+---
 
-## 💡 Usage
+## **📌 Features**  
 
-This section covers how to start the development server and build your project for production.
+### **🏠 Home Page**  
+✅ Featured products & promotions  
+✅ Search functionality  
 
-### Starting the Development Server
+### **🛍️ Product Page**  
+✅ View product details  
+✅ Filter & sort products  
 
-To start the development server with hot-reload, run the following command. The server will be accessible at [http://localhost:3000](http://localhost:3000):
+### **⭐ Review Page**  
+✅ View customer reviews  
+✅ Add ratings & feedback  
 
+### **🔑 Login & Authentication**  
+✅ User login & registration  
+✅ Secure authentication  
+
+### **🛒 Cart & Checkout**  
+✅ Add/remove products from the cart  
+✅ Secure checkout process  
+
+---
+
+## **🛠️ Tech Stack**  
+
+| **Technology** | **Purpose** |
+|--------------|------------|
+| **Vue.js** | Frontend Framework |
+| **Vuetify** | UI Component Library |
+| **CSS** | Styling & Layout |
+| **Vue Router** | Page Navigation |
+| **Vuex (Optional)** | State Management |
+
+---
+
+## **🚀 Installation & Setup**  
+
+### **🔹 Prerequisites**  
+🔸 Node.js (LTS)  
+🔸 Vue CLI  
+
+### **🔹 Steps to Run the Project**  
+
+1️⃣ **Clone the repository**  
 ```bash
-yarn dev
+git clone https://github.com/zukoo52/ShoppingCart-Ecommerse-site-Front-End-.git
+cd ShoppingCart-Ecommerse-site-Front-End-
 ```
 
-(Repeat for npm, pnpm, and bun with respective commands.)
-
-> Add NODE_OPTIONS='--no-warnings' to suppress the JSON import warnings that happen as part of the Vuetify import mapping. If you are on Node [v21.3.0](https://nodejs.org/en/blog/release/v21.3.0) or higher, you can change this to NODE_OPTIONS='--disable-warning=5401'. If you don't mind the warning, you can remove this from your package.json dev script.
-
-### Building for Production
-
-To build your project for production, use:
-
+2️⃣ **Install dependencies**  
 ```bash
-yarn build
+npm install
 ```
 
-(Repeat for npm, pnpm, and bun with respective commands.)
+3️⃣ **Run the development server**  
+```bash
+npm run serve
+```
 
-Once the build process is completed, your application will be ready for deployment in a production environment.
+4️⃣ **Open the project in the browser**  
+```
+http://localhost:8080
+```
 
-## 💪 Support Vuetify Development
+---
 
-This project is built with [Vuetify](https://vuetifyjs.com/en/), a UI Library with a comprehensive collection of Vue components. Vuetify is an MIT licensed Open Source project that has been made possible due to the generous contributions by our [sponsors and backers](https://vuetifyjs.com/introduction/sponsors-and-backers/). If you are interested in supporting this project, please consider:
+## **📜 Folder Structure**  
 
-- [Requesting Enterprise Support](https://support.vuetifyjs.com/)
-- [Sponsoring John on Github](https://github.com/users/johnleider/sponsorship)
-- [Sponsoring Kael on Github](https://github.com/users/kaelwd/sponsorship)
-- [Supporting the team on Open Collective](https://opencollective.com/vuetify)
-- [Becoming a sponsor on Patreon](https://www.patreon.com/vuetify)
-- [Becoming a subscriber on Tidelift](https://tidelift.com/subscription/npm/vuetify)
-- [Making a one-time donation with Paypal](https://paypal.me/vuetify)
+```
+/src
+ ├── /components     # Reusable UI components
+ ├── /views          # Main page components
+ ├── /store          # Vuex store (if used)
+ ├── /assets         # Images & static assets
+ ├── /router         # Vue Router settings
+ ├── App.vue         # Main app component
+ ├── main.js         # App entry point
+```
 
-## 📑 License
-[MIT](http://opensource.org/licenses/MIT)
+---
 
-Copyright (c) 2016-present Vuetify, LLC
+## **📌 Backend API**  
+This project connects to a backend system that handles user authentication, product data, and checkout.  
+
+🔹 **Backend Repository:** _Coming Soon_  
+
+---
+
+## **📩 Contributions & Feedback**  
+
+💡 Open to improvements! If you have suggestions or spot issues, feel free to:  
+✅ Open a **GitHub Issue**  
+✅ Submit a **Pull Request**  
+✅ Contact the team  
+
+---
+
+## **📌 License**  
+📜 This project is licensed under the **MIT License**.  
+
+---
+
+### **⭐ Don’t forget to star this repository if you like it! ⭐**  
