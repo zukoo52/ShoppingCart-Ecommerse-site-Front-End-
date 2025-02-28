@@ -103,7 +103,7 @@ http://localhost:8080
 ## **📌 Backend API**  
 This project connects to a backend system that handles user authentication, product data, and checkout.  
 
-🔹 **Backend Repository:** _Coming Soon_  
+🔹 **Backend Repository:**[BACKEND](https://github.com/zukoo52/ShoppingCart-Ecommerce-Site-Backend.git) 
 
 ---
 
